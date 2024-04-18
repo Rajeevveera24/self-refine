@@ -2,6 +2,9 @@ import pandas as pd
 from tqdm import tqdm
 
 
+#Append to absolute path
+import sys
+sys.path.append("/home/raj/code/nlp_project/self-refine")
 from src.gsm.task_init import GSMInit
 from src.gsm.feedback import GSMFeedback
 
